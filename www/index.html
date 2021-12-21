@@ -1,1 +1,169 @@
-<!DOCTYPE html><!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]--><!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]--><!--[if IE 8]><html class="lt-ie9"><![endif]--><!--[if gt IE 8]><!--><html>  <!--<![endif]-->  <head>    <meta http-equiv="content-type" content="text/html; charset=utf-8">    <title>Aspandem</title>    <link rel="stylesheet" href="css/foundation.min.css">    <link rel="stylesheet" href="css/superfish.css">    <link rel="stylesheet" href="css/stylesheet.css">    <link rel="stylesheet" href="js/slider/flexslider.css">    <link rel="stylesheet" href="js/slider/flexcar.css">    <link href="http://fonts.googleapis.com/css?family=Quando" rel="stylesheet"      type="text/css">    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,300%7CDroid+Serif:400,300"      rel="stylesheet"      type="text/css">    <script src="js/vendor/custom.modernizr.js"></script>    <script>    Modernizr.load({      // test if browser understands media queries      test: Modernizr.mq('only all'),      // if not load ie8-grid      nope: 'css/ie8-grid-foundation-4.css'    });  </script>    <!--[if lt IE 9]><link rel="stylesheet" href="css/ie-fixes.css"><![endif]-->  </head>  <body>    <div class="wrapper">      <div class="header">        <div class="row">          <div class="columns large-12  header-inner"> <a href="index.html"><img                src="images/logo.png"                alt=""                class="logo"></a>          </div>          <div class="columns large-12">            <nav>              <section>                <ul class="sf-menu large-12">                  <li class="active"><a href="index.html">INICIO</a></li>                  <li class="has-dropdown"><a href="#">Areas</a>                    <ul class="dropdown">                      <li><a href="area_de_servicios.html">Area de servicios</a></li>                      <li><a href="area_asistencial.html">Area asistencial</a></li>                    </ul>                  </li>                  <li><a href="otros_servicios.html">Otros servicios</a></li>                  <li><a href="contacto.html">Contacto</a></li>                </ul>              </section>            </nav>          </div>        </div>        <div class="slider">          <div class="row">            <div class="columns large-12">              <div class="row flexslider-row">                <div class="columns large-12">                  <div class="flexslider">                    <ul class="slides">                      <li><img src="images/01.png" alt=""></li>                      <li><img src="images/02.png" alt=""></li>                      <li><img src="images/03.png" alt=""></li>                      <li><img src="images/04.png" alt=""></li>                    </ul>                  </div>                </div>              </div>            </div>          </div>        </div>        <div class="tagline-row">          <div class="row tagline">            <div class="columns large-12">              <h2 class="center"> Bienvenidos, al sitio web de la asociación a                favor de las personas con discapacidad en la Costa del Sol. </h2>            </div>          </div>        </div>        <div class="service-box">          <div class="row service">            <div class="columns large-4">              <div class="box">                <p><img src="images/redu01.png" class="service-img" longdesc="images/redu01.png"></p>              </div>            </div>            <div class="columns large-4">              <div class="box">                <p><img src="images/redu02.png" class="service-img"></p>                <h1 style="text-align: center;">Nuestra mision</h1>                <p style="text-align: center;"> <b>"Normalizar las condiciones                    de vida de las personas con discapacidad a las que sirve con                    independencia del tipo, grado de afectación y edad, y                    contando además con los deseos, autodeterminación y                    aspiraciones de las mismas. Todos estos fines están                    recogidos en los estatutos de la Asociación"</b></p>              </div>            </div>            <div class="columns large-4">              <div class="box">                <p><img src="images/redu03.jpg" class="service-img"></p>                <p></p>              </div>            </div>          </div>        </div>        <footer class="footer">          <div class="row">            <div class="columns large-12 footer-inner">              <div class="row"> <a href="aviso_legal.html">Aviso legal</a> </div>            </div>          </div>        </footer>        <div class="credit-row">          <div class="row">            <div class="columns large-1"><img src="images/toparrow.png" alt="" class="scrollToTop"></div>          </div>        </div>      </div>    </div>    <script src="js/jquery.min.js"></script>    <script src="js/hoverIntent.js"></script>    <script src="js/superfish.js"></script>    <script src="js/slider/jquery.flexslider.js"></script>    <script>    Modernizr.load({      test: Modernizr.placeholder,      nope: 'js/placeholder.min.js'    });    function goToNewPage() {      if (document.getElementById('target').value) {        window.location.href = document.getElementById('target').value;      }    }  </script>    <script>    $(document).ready(function () {      $('ul.sf-menu').superfish({        animation: {          height: 'show'        },        delay: 400      });      $("img.scrollToTop").click(function () {        $("html, body").animate({          scrollTop: 0        }, "slow");      });      $('.flexslider').flexslider();      $('.flexcar').flexslider();    });  </script>  </body></html>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Aspandem</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="js/slider/flexslider.css">
+    <link rel="stylesheet" href="js/slider/flexcar.css">
+    <link href="http://fonts.googleapis.com/css?family=Quando" rel="stylesheet"
+      type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,300%7CDroid+Serif:400,300"
+      rel="stylesheet"
+      type="text/css">
+    <script src="js/vendor/custom.modernizr.js"></script>
+    <script>
+    Modernizr.load({
+      // test if browser understands media queries
+      test: Modernizr.mq('only all'),
+      // if not load ie8-grid
+      nope: 'css/ie8-grid-foundation-4.css'
+    });
+  </script>
+    <!--[if lt IE 9]>
+<link rel="stylesheet" href="css/ie-fixes.css"><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="row">
+          <div class="columns large-12  header-inner"> <a href="index.html"><img
+                src="images/logo.png"
+                alt=""
+                class="logo"></a>
+          </div>
+          <div class="columns large-12">
+            <nav>
+              <section>
+                <ul class="sf-menu large-12">
+                  <li class="active"><a href="index.html">INICIO</a></li>
+                  <li class="has-dropdown"><a href="#">Areas</a>
+                    <ul class="dropdown">
+                      <li><a href="area_de_servicios.html">Area de servicios</a></li>
+                      <li><a href="area_asistencial.html">Area asistencial</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="otros_servicios.html">Otros servicios</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+              </section>
+            </nav>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="row">
+            <div class="columns large-12">
+              <div class="row flexslider-row">
+                <div class="columns large-12">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li><img src="images/01.png" alt=""></li>
+                      <li><img src="images/02.png" alt=""></li>
+                      <li><img src="images/03.png" alt=""></li>
+                      <li><img src="images/04.png" alt=""></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tagline-row">
+          <div class="row tagline">
+            <div class="columns large-12">
+              <h2 class="center"> Bienvenidos, al sitio web de la asociación a
+                favor de las personas con discapacidad en la Costa del Sol. </h2>
+
+                <h2 class="center"><b>NOTICIAS</b></h2>
+
+                <h2 class="center"><b>La Diputacion de Malaga subvenciona material sanitario a ASPANDEM</b></h2>
+
+                <h3 class="center"><i><a href="noticias.html">Continuar leyendo</a></Continuar></i></h3>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="row service">
+            <div class="columns large-4">
+              <div class="box">
+                <p><img src="images/redu01.png" class="service-img" longdesc="images/redu01.png"></p>
+              </div>
+            </div>
+            <div class="columns large-4">
+              <div class="box">
+                <p><img src="images/redu02.png" class="service-img"></p>
+                <h1 style="text-align: center;">Nuestra mision</h1>
+                <p style="text-align: center;"> <b>"Normalizar las condiciones
+                    de vida de las personas con discapacidad a las que sirve con
+                    independencia del tipo, grado de afectación y edad, y
+                    contando además con los deseos, autodeterminación y
+                    aspiraciones de las mismas. Todos estos fines están
+                    recogidos en los estatutos de la Asociación"</b></p>
+              </div>
+            </div>
+            <div class="columns large-4">
+              <div class="box">
+                <p><img src="images/redu03.jpg" class="service-img"></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="row">
+            <div class="columns large-12 footer-inner">
+              <div class="row"> <a href="aviso_legal.html">Aviso legal</a> </div>
+            </div>
+          </div>
+        </footer>
+        <div class="credit-row">
+          <div class="row">
+            <div class="columns large-1"><img src="images/toparrow.png" alt="" class="scrollToTop"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/slider/jquery.flexslider.js"></script>
+    <script>
+    Modernizr.load({
+      test: Modernizr.placeholder,
+      nope: 'js/placeholder.min.js'
+    });
+
+    function goToNewPage() {
+      if (document.getElementById('target').value) {
+        window.location.href = document.getElementById('target').value;
+      }
+    }
+  </script>
+    <script>
+    $(document).ready(function () {
+      $('ul.sf-menu').superfish({
+        animation: {
+          height: 'show'
+        },
+        delay: 400
+      });
+      $("img.scrollToTop").click(function () {
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+      });
+      $('.flexslider').flexslider();
+      $('.flexcar').flexslider();
+    });
+  </script>
+  </body>
+</html>
