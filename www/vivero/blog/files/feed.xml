@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+<title>My RSS Feed</title><link>http://viveroaspandem.es/index.html</link><description>Hot News&#x21;</description><dc:language>en</dc:language><language>en</language><dc:date>2018-07-04T20:46:06+02:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<lastBuildDate>Tue, 12 Jun 2018 08:14:14 +0200</lastBuildDate><item><title>CUPON OFERTA</title><dc:subject>OFERTAS</dc:subject><dc:date>2018-07-04T20:46:06+02:00</dc:date><link>http://viveroaspandem.es/blog/files/1041d7f2667f1cb9264c072142095684-2.html#unique-entry-id-2</link><guid isPermaLink="true">http://viveroaspandem.es/blog/files/1041d7f2667f1cb9264c072142095684-2.html#unique-entry-id-2</guid><content:encoded><![CDATA[Aprovecha nuestros descuentos]]></content:encoded></item></channel>
+</rss>
