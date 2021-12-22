@@ -34,7 +34,7 @@ function initialize() {
     });
     var infowindow = new google.maps.InfoWindow();
     // Write the content that you wish to be displayed here e.g. Your Companies Address
-    infowindow.setContent('DreamzBank');
+    infowindow.setContent('Aspandem');
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
     });
