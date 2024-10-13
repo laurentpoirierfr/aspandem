@@ -85,7 +85,16 @@
 		<!-- Plugin injected code -->
 		
 
-	
+		<!-- TODO Pedro -->
+		<style>
+			#flexcards {
+				width: 950px;
+  				margin:0 auto;
+  				text-align: center;
+			}
+		</style>
+		<!-- TODO Pedro -->
+
 	</head>
 	
 	<!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
@@ -143,6 +152,27 @@
 		<nav id="mobile_navigation">
 			<ul><li><a href="./" rel="" id="current" class="parent">VIVERO ASPANDEM</a><ul><li><a href="Mapa/" rel="">UBICACIÓN</a></li><li><a href="Plantas/" rel="">NUESTRAS PLANTAS</a></li><li><a href="Contacto/" rel="">CONTACTO</a></li><li><a href="offsite/" rel="">RESEÑAS</a></li></ul></li><li><a href="HTTP://ASPANDEM.ORG" rel="">ASPANDEM</a></li><li><a href="Empleo/" rel="">SERVICIOS</a></li></ul>
 		</nav>
+
+		<!-- TODO Pedro -->
+		<script src="./js/flexcards.min.js"></script>
+		<br/>
+		<!-- Image Carousel -->
+		<div id="flexcards" class="images">
+			<img src="../images/01.png">
+			<img src="../images/02.png">
+			<img src="../images/03.png">
+			<img src="../images/04.png">
+		</div>
+		<script>
+			// Image Carousel
+			const flexcards2 = new FlexCards("#flexcards.images", { 
+				components: "images" 
+			});
+			flexcards2.carousel({
+				// options here
+			});
+		</script>
+		<!-- TODO Pedro -->
 
 		<!-- Main Content area and sidebar -->
 		<div class="row site_width" id="container">
